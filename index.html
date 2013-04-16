@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>data-href</title>
+  <link href="http://selfcss.org/baf/css/baf.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="http://selfcss.org/baf/css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="./datahref.js"></script>
+</head>
+<body>
+  <h1>data-href</h1>
+  <a class="baf blue" href="./server.php" data-href="./server.php" data-method="GET" data-query='{"follow":true}'>follow</a>
+  <a class="baf red" href="./server.php" data-href="./server.php" data-method="GET" data-query='{"like":false}'>unlike</a>
+  <a class="baf green bluehover" href="#" data-href="./server.php" data-method="GET" data-query='{"time":"update"}' data-timeout="foo">&nbsp;<span class="baf-icomoon big" aria-hidden="true" data-icon="&#xe02b;"></span>&nbsp;</a>
+  <script>
+    window.onload = datahrefinit();
+  </script>
+</body>
+</html>
